@@ -1,0 +1,30 @@
+name: inflammation_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - sqlalchemy
+  - pymysql
+  - psycopg2
+  - django
+  - djangorestframework
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn
+      - plotly
+      - pyecharts
+      - auto-sklearn
+      - tpot
+      - tensorflow
+      - torch
+      - google-cloud-storage
